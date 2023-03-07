@@ -1,0 +1,3117 @@
+{
+  "nodes": [
+    {
+      "id": 176896,
+      "properties": {
+        "name": "太平洋康泰科学仪器（济南）有限公司",
+        "code": "37011363011190505584"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1773425,
+      "properties": { "name": "医疗材料生产商", "code": "11574" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1588280,
+      "properties": { "name": "CamStent", "code": "66661366555356283083" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1749311,
+      "properties": { "name": "美国仪器分析平台开发商", "code": "18" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1545699,
+      "properties": {
+        "name": "MOBILion Systems, Inc.",
+        "code": "66661366555356168212"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1524223,
+      "properties": { "name": "肺动脉高压医疗设备研发商", "code": "32223" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1685319,
+      "properties": { "name": "Aria CV", "code": "66661366555356143685" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1764273,
+      "properties": {
+        "name": "医疗设备和综合解决方案提供商",
+        "code": "6790"
+      },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1574312,
+      "properties": {
+        "name": "重庆海扶医疗科技股份有限公司",
+        "code": "66661366555356127364"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1766317,
+      "properties": { "name": "医疗设备提供商", "code": "7742" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1659165,
+      "properties": {
+        "name": "Torax Medical, Inc.",
+        "code": "66661366555356119223"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1753398,
+      "properties": { "name": "医疗设备研发商", "code": "1375" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1587676,
+      "properties": {
+        "name": "Diabeloop SA",
+        "code": "66661366555356110854"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1676706,
+      "properties": {
+        "name": "Apama Medical",
+        "code": "66661366555356102898"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1753235,
+      "properties": { "name": "医疗器械生产商", "code": "1212" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1663399,
+      "properties": {
+        "name": "深圳市奥特库贝科技有限公司",
+        "code": "66661366555356086515"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1690695,
+      "properties": {
+        "name": "百德（苏州）医疗有限公司",
+        "code": "66661366555356078129"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1754523,
+      "properties": { "name": "医疗设备服务供应商", "code": "1954" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1552944,
+      "properties": {
+        "name": "美众亿医疗科技（北京）有限公司",
+        "code": "66661366555356070114"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1750528,
+      "properties": { "name": "医疗器械研发商", "code": "143" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1583384,
+      "properties": {
+        "name": "全景恒升（北京）科学技术有限公司",
+        "code": "66661366555356069987"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1754718,
+      "properties": { "name": "医疗设备及软件制造商", "code": "2149" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1553137,
+      "properties": {
+        "name": "CANCER TREATMENT SERVICES INTERNATIONAL L P",
+        "code": "66661366555356069900"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1750714,
+      "properties": { "name": "医疗器械供应商", "code": "329" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1701808,
+      "properties": {
+        "name": "hystrix medical AG",
+        "code": "66661366555356061788"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1773536,
+      "properties": { "name": "医疗设备供应商", "code": "11685" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1588957,
+      "properties": {
+        "name": "广西贝朗斯医疗科技有限公司",
+        "code": "66661366555356029099"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1509528,
+      "properties": { "name": "医疗设备研发销售商", "code": "24626" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1656728,
+      "properties": {
+        "name": "Venture Med Group",
+        "code": "66661366555356020982"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1518209,
+      "properties": { "name": "脑功能医疗设备研发应用商", "code": "28393" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1669575,
+      "properties": {
+        "name": "丹阳慧创医疗设备有限公司",
+        "code": "66661366555356020802"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1764949,
+      "properties": { "name": "高科技医疗集团", "code": "7466" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1576664,
+      "properties": {
+        "name": "海吉亚医疗集团（香港）有限公司",
+        "code": "66661366555355996316"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1776114,
+      "properties": { "name": "荷兰医疗设备研发生产商", "code": "13171" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1592836,
+      "properties": { "name": "Medimetrics", "code": "66661366555355988197" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1759795,
+      "properties": { "name": "医疗设备制造商", "code": "4496" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1613471,
+      "properties": {
+        "name": "河北迈亚生物科技有限责任公司",
+        "code": "66661366555355988046"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1775659,
+      "properties": { "name": "中国呼气试验项目", "code": "12716" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1591219,
+      "properties": {
+        "name": "北京华亘安邦科技有限公司",
+        "code": "66661366555355979922"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1755674,
+      "properties": { "name": "医疗设备生产销售商", "code": "2559" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1555186,
+      "properties": {
+        "name": "Windgap Medical",
+        "code": "66661366555355906105"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1780105,
+      "properties": { "name": "医疗设备研发服务商", "code": "14978" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1616201,
+      "properties": {
+        "name": "深圳中科强华低成本健康科技有限公司",
+        "code": "66661366555355873534"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1754408,
+      "properties": {
+        "name": "法国电子人工尿道括约肌开发商",
+        "code": "1839"
+      },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1552836,
+      "properties": { "name": "UroMems", "code": "66661366555355873315" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1767255,
+      "properties": { "name": "医疗设备制造及销售商", "code": "8680" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1582896,
+      "properties": { "name": "Aortica", "code": "66661366555355807763" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1493734,
+      "properties": {
+        "name": "以色列肠内喂养定位导航技术研发商",
+        "code": "20298"
+      },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1634531,
+      "properties": {
+        "name": "ENvizion Medical Ltd.",
+        "code": "66661366555355783416"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1772606,
+      "properties": { "name": "家用透析机制造商", "code": "11301" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1587974,
+      "properties": {
+        "name": "NxStage Medical，Inc.",
+        "code": "66661366555355783193"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1525026,
+      "properties": { "name": "德国医疗设备研发商", "code": "32480" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1686200,
+      "properties": { "name": "SpinDiag", "code": "66661366555355767007" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1625457,
+      "properties": {
+        "name": "Leuko Labs Inc.",
+        "code": "66661366555355766966"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1550940,
+      "properties": {
+        "name": "苏州国科芯感医疗科技有限公司",
+        "code": "66661366555355758817"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1763152,
+      "properties": { "name": "非侵入式医疗设备研发商", "code": "6215" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1572060,
+      "properties": {
+        "name": "INSIGHTEC Ltd.",
+        "code": "66661366555355758647"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1757988,
+      "properties": { "name": "微创医疗设备设计开发商", "code": "3781" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1560220,
+      "properties": {
+        "name": "Arrotek Medical",
+        "code": "66661366555355750563"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1781436,
+      "properties": { "name": "德国医疗设备制造商", "code": "15763" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1618751,
+      "properties": {
+        "name": "Heyer Medical AG",
+        "code": "66661366555355750406"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1593197,
+      "properties": {
+        "name": "Fifth Eye Inc",
+        "code": "66661366555355734253"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1512602,
+      "properties": { "name": "骨科内植入物生产商", "code": "26062" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1663412,
+      "properties": {
+        "name": "北京爱康宜诚医疗器材有限公司",
+        "code": "66661366555355734210"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1755592,
+      "properties": { "name": "医疗设备生产商", "code": "2477" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1645508,
+      "properties": {
+        "name": "西安好博士医疗科技有限公司",
+        "code": "66661366555355717837"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1777009,
+      "properties": { "name": "心脑生物磁仪器研发商", "code": "13520" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1594870,
+      "properties": {
+        "name": "漫迪医疗仪器（上海）有限公司",
+        "code": "66661366555355717812"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1708828,
+      "properties": {
+        "name": "Alydia Health",
+        "code": "66661366555355717789"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1773614,
+      "properties": { "name": "德国医疗设备提供商", "code": "11763" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1589050,
+      "properties": { "name": "Medifa", "code": "66661366555355709589" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1764717,
+      "properties": { "name": "呼吸疾病监测公司", "code": "7234" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1576415,
+      "properties": {
+        "name": "Spirometrix,Inc.",
+        "code": "66661366555355709553"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1779344,
+      "properties": {
+        "name": "经阴道宫腔手术超声监视仪供应商",
+        "code": "14763"
+      },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1614862,
+      "properties": {
+        "name": "河南方正医用电子有限公司",
+        "code": "66661366555355701472"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1784417,
+      "properties": { "name": "医疗设备研发生产商", "code": "17106" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1622518,
+      "properties": {
+        "name": "浙江京新术派医疗科技有限公司",
+        "code": "66661366555355693170"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1754355,
+      "properties": { "name": "医疗器械开发商", "code": "1786" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1622618,
+      "properties": {
+        "name": "Endo Tools Therapeutics",
+        "code": "66661366555355684937"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1632936,
+      "properties": {
+        "name": "Riverpoint Medical",
+        "code": "66661366555355684898"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1562372,
+      "properties": {
+        "name": "武汉博纳维科医疗器械有限公司",
+        "code": "66661366555355676894"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1574253,
+      "properties": { "name": "Meyra Group", "code": "66661366555355676787" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1504147,
+      "properties": {
+        "name": "颈椎和腰椎椎间融合器研发制造商",
+        "code": "22521"
+      },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1645420,
+      "properties": { "name": "Nanovis", "code": "66661366555355676786" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1773470,
+      "properties": { "name": "医疗显示设备研发生产企业", "code": "11619" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1588882,
+      "properties": {
+        "name": "深圳市巨烽显示科技有限公司",
+        "code": "66661366555355676706"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1768256,
+      "properties": { "name": "美国医疗设备研发生产商", "code": "9135" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1584492,
+      "properties": { "name": "Providien", "code": "66661366555355643974" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1754566,
+      "properties": { "name": "医疗设备服务商", "code": "1997" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1621316,
+      "properties": { "name": "Diality", "code": "66661366555355643908" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1775908,
+      "properties": { "name": "电生理领域产品研发商", "code": "12965" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1591507,
+      "properties": {
+        "name": "四川锦江电子科技有限公司",
+        "code": "66661366555355627718"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1580964,
+      "properties": {
+        "name": "瀚湄信息科技（上海）有限公司",
+        "code": "66661366555355562033"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1581176,
+      "properties": {
+        "name": "武汉景川诊断技术股份有限公司",
+        "code": "66661366555355488429"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1578595,
+      "properties": { "name": "Venclose", "code": "66661366555355480150" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1787256,
+      "properties": { "name": "颈椎间盘疾病医疗设备研发商", "code": "18853" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1628971,
+      "properties": {
+        "name": "Simplify Medical",
+        "code": "66661366555355471882"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1780213,
+      "properties": { "name": "医疗器械生产及IT服务提供商", "code": "15086" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1616327,
+      "properties": {
+        "name": "东软医疗系统股份有限公司",
+        "code": "66661366555355455568"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1773529,
+      "properties": {
+        "name": "医疗设备及相关产品研发及进出口贸易",
+        "code": "11678"
+      },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1588948,
+      "properties": {
+        "name": "深圳市诺然美泰科技股份有限公司",
+        "code": "66661366555355439298"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1507605,
+      "properties": { "name": "医疗设备及耗材生产商", "code": "23795" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1652402,
+      "properties": {
+        "name": "北京众杏医疗设备有限公司",
+        "code": "66661366555355414640"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1552990,
+      "properties": {
+        "name": "Advanced NanoTherapies Inc.",
+        "code": "66661366555355398383"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1507510,
+      "properties": { "name": "医疗设备与软件开发商", "code": "23700" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1652293,
+      "properties": { "name": "Body Vision", "code": "66661366555355382014" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1752071,
+      "properties": { "name": "早期医疗设备研发商", "code": "1140" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1548902,
+      "properties": {
+        "name": "Sofregen Medical Inc.",
+        "code": "66661366555355381956"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1523175,
+      "properties": { "name": "医学影像设备服务商", "code": "31721" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1684130,
+      "properties": {
+        "name": "聚融医疗科技（杭州）有限公司",
+        "code": "66661366555355357398"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1771735,
+      "properties": { "name": "神经病学领域医疗设备研发商", "code": "10976" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1587612,
+      "properties": { "name": "Stimwave", "code": "66661366555355357379" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1509659,
+      "properties": { "name": "精密技术医疗设备制造商", "code": "24757" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1656884,
+      "properties": {
+        "name": "Precisa Medical Instruments Corp",
+        "code": "66661366555355357192"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1514885,
+      "properties": { "name": "生物电子医疗设备提供商", "code": "27253" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1666515,
+      "properties": {
+        "name": "Tivic Health Systems, Inc.",
+        "code": "66661366555355349156"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1586588,
+      "properties": {
+        "name": "Spine Align, LLC",
+        "code": "66661366555355349096"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1519662,
+      "properties": { "name": "医疗保健设备研发商", "code": "29300" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1673427,
+      "properties": { "name": "Thermetrix", "code": "66661366555355316390" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1780443,
+      "properties": {
+        "name": "精准医疗产业的上游硬件设备开发商",
+        "code": "15316"
+      },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1616584,
+      "properties": {
+        "name": "北京致雨生物科技有限公司",
+        "code": "66661366555355299973"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1534197,
+      "properties": { "name": "中高端助听器生产商", "code": "37283" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1710841,
+      "properties": {
+        "name": "杭州爱听科技有限公司",
+        "code": "66661366555355291774"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1512588,
+      "properties": { "name": "医疗仪器设备研发商", "code": "26048" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1663394,
+      "properties": {
+        "name": "珠海东恒医疗有限公司",
+        "code": "66661366555355283702"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1773723,
+      "properties": { "name": "三类医疗设备研发商", "code": "11872" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1589171,
+      "properties": {
+        "name": "杭州米福科技有限公司",
+        "code": "66661366555355177047"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1632855,
+      "properties": {
+        "name": "Catalyst OrthoScience",
+        "code": "66661366555355177039"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1780156,
+      "properties": { "name": "病理分析设备研发商", "code": "15029" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1616260,
+      "properties": {
+        "name": "沈阳帕萨杰医疗器械有限公司",
+        "code": "66661366555355136233"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1750818,
+      "properties": { "name": "子宫疾病医疗设备研发商", "code": "433" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1547154,
+      "properties": { "name": "Meditrina", "code": "66661366555355136012" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1500695,
+      "properties": { "name": "医疗及先进工业设备制造商", "code": "20707" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1636667,
+      "properties": { "name": "ARGES GmbH", "code": "66661366555355078833" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1663537,
+      "properties": { "name": "Healionics", "code": "66661366555355037909" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1587759,
+      "properties": {
+        "name": "瑞尔通（苏州）医疗科技有限公司",
+        "code": "66661366555355029651"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1787313,
+      "properties": { "name": "抗生素筛选仪器研发商", "code": "18910" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1629041,
+      "properties": {
+        "name": "上海氘峰医疗器械有限公司",
+        "code": "66661366555355029508"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1785963,
+      "properties": { "name": "治疗监测设备研发商", "code": "18106" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1625900,
+      "properties": { "name": "CloudCath", "code": "66661366555355021397" },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1510709,
+      "properties": { "name": "医疗设备经销商", "code": "25261" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1659158,
+      "properties": {
+        "name": "杭州倚天生物技术有限公司",
+        "code": "66661366555355013160"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1753587,
+      "properties": { "name": "医疗设备销售商", "code": "1564" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1550928,
+      "properties": {
+        "name": "北京欣百瑞医疗科技有限公司",
+        "code": "66661366555354996932"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1571943,
+      "properties": {
+        "name": "广州埃克森生物科技有限公司",
+        "code": "66661366555354988755"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1753315,
+      "properties": { "name": "医疗设备研发公司", "code": "1292" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1550680,
+      "properties": {
+        "name": "Capture Vascular",
+        "code": "66661366555354972240"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1757875,
+      "properties": { "name": "医诊疗设备服务商", "code": "3668" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1560105,
+      "properties": {
+        "name": "北京云天元科技有限责任公司",
+        "code": "66661366555354956015"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1754402,
+      "properties": { "name": "伽玛射线设备生产商", "code": "1833" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1552832,
+      "properties": {
+        "name": "伽玛星医疗科技发展（上海）有限公司",
+        "code": "66661366555354906854"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1622592,
+      "properties": {
+        "name": "北京脑泰科技发展有限公司",
+        "code": "66661366555354906638"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1511703,
+      "properties": { "name": "血液分析仪研发商", "code": "25709" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1661345,
+      "properties": {
+        "name": "无锡龚氏医疗科技有限公司",
+        "code": "66661366555354898499"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1753349,
+      "properties": { "name": "医疗设备销售和产品服务商", "code": "1326" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1550710,
+      "properties": {
+        "name": "江苏亿尔医疗设备有限公司",
+        "code": "66661366544364011690"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1666664,
+      "properties": {
+        "name": "国药控股美太医疗设备（上海）有限公司",
+        "code": "66661366544363839689"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1591195,
+      "properties": {
+        "name": "深圳华声医疗技术股份有限公司",
+        "code": "66661366544363364381"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1761159,
+      "properties": { "name": "数字化医疗设备制造商", "code": "5314" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1652729,
+      "properties": {
+        "name": "北京麦迪克斯科技有限公司",
+        "code": "66661366544360603821"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1510551,
+      "properties": { "name": "宠物医疗设备生产商", "code": "25103" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1658955,
+      "properties": {
+        "name": "深圳市瑞沃德生命科技有限公司",
+        "code": "66661366544360546519"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1750898,
+      "properties": { "name": "先进医疗设备供应商", "code": "513" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1547229,
+      "properties": {
+        "name": "上海申捷卫生科技股份有限公司",
+        "code": "66661366544360226891"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1518387,
+      "properties": { "name": "基础医疗产品生产商", "code": "28571" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1671423,
+      "properties": {
+        "name": "湖南泰瑞医疗科技有限公司",
+        "code": "66661366544360145087"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1787446,
+      "properties": { "name": "医疗设备生产研发商", "code": "19043" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1629203,
+      "properties": {
+        "name": "深圳市泰乐康科技有限公司",
+        "code": "66661366544359014418"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1766871,
+      "properties": { "name": "高端医疗器械研制服务商", "code": "8296" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1580824,
+      "properties": {
+        "name": "万邦德医疗科技有限公司",
+        "code": "33101364566628540612"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1770243,
+      "properties": { "name": "医疗设备研发制造商", "code": "10030" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1591328,
+      "properties": {
+        "name": "浙江通用海特医疗科技有限公司",
+        "code": "33061364566627385597"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1756643,
+      "properties": { "name": "心脏自动导航技术研发商", "code": "2982" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1557241,
+      "properties": {
+        "name": "绍兴梅奥心磁医疗科技有限公司",
+        "code": "33061364566627287280"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1568342,
+      "properties": {
+        "name": "杭州目乐医疗科技股份有限公司",
+        "code": "33011364566628294692"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1520876,
+      "properties": { "name": "医用高端磁成像设备研发商", "code": "29968" },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1676471,
+      "properties": {
+        "name": "杭州昕磁科技有限公司",
+        "code": "33011364566628237495"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1755629,
+      "properties": {
+        "name": "脑神经科医疗仪器设备研发生产商",
+        "code": "2514"
+      },
+      "labels": ["CompanyLabel"]
+    },
+    {
+      "id": 1555142,
+      "properties": {
+        "name": "浙江莱恩海思医疗科技有限公司",
+        "code": "33011364566627795177"
+      },
+      "labels": ["Company"]
+    }
+  ],
+  "links": [
+    {
+      "source": 176896,
+      "id": 1745136,
+      "type": "COTOCL",
+      "target": 1773425,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1588280,
+      "id": 1802235,
+      "type": "COTOCL",
+      "target": 1773425,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811169,
+      "type": "COTOCO",
+      "target": 1588280,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745100,
+      "type": "COTOCL",
+      "target": 1749311,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1545699,
+      "id": 1790302,
+      "type": "COTOCL",
+      "target": 1749311,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811168,
+      "type": "COTOCO",
+      "target": 1545699,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1599639,
+      "type": "COTOCL",
+      "target": 1524223,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1685319,
+      "id": 1788139,
+      "type": "COTOCL",
+      "target": 1524223,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811167,
+      "type": "COTOCO",
+      "target": 1685319,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745126,
+      "type": "COTOCL",
+      "target": 1764273,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1574312,
+      "id": 1786488,
+      "type": "COTOCL",
+      "target": 1764273,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811166,
+      "type": "COTOCO",
+      "target": 1574312,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745129,
+      "type": "COTOCL",
+      "target": 1766317,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1659165,
+      "id": 1785803,
+      "type": "COTOCL",
+      "target": 1766317,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811165,
+      "type": "COTOCO",
+      "target": 1659165,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745109,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1587676,
+      "id": 1784890,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811164,
+      "type": "COTOCO",
+      "target": 1587676,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1676706,
+      "id": 1784630,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811163,
+      "type": "COTOCO",
+      "target": 1676706,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745106,
+      "type": "COTOCL",
+      "target": 1753235,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1663399,
+      "id": 1783157,
+      "type": "COTOCL",
+      "target": 1753235,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811162,
+      "type": "COTOCO",
+      "target": 1663399,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1690695,
+      "id": 1781505,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811161,
+      "type": "COTOCO",
+      "target": 1690695,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745114,
+      "type": "COTOCL",
+      "target": 1754523,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1552944,
+      "id": 1781426,
+      "type": "COTOCL",
+      "target": 1754523,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811160,
+      "type": "COTOCO",
+      "target": 1552944,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745101,
+      "type": "COTOCL",
+      "target": 1750528,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1583384,
+      "id": 1781299,
+      "type": "COTOCL",
+      "target": 1750528,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811159,
+      "type": "COTOCO",
+      "target": 1583384,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745116,
+      "type": "COTOCL",
+      "target": 1754718,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1553137,
+      "id": 1780732,
+      "type": "COTOCL",
+      "target": 1754718,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811158,
+      "type": "COTOCO",
+      "target": 1553137,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745102,
+      "type": "COTOCL",
+      "target": 1750714,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1701808,
+      "id": 1780076,
+      "type": "COTOCL",
+      "target": 1750714,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811157,
+      "type": "COTOCO",
+      "target": 1701808,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745139,
+      "type": "COTOCL",
+      "target": 1773536,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1588957,
+      "id": 1777450,
+      "type": "COTOCL",
+      "target": 1773536,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811156,
+      "type": "COTOCO",
+      "target": 1588957,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745162,
+      "type": "COTOCL",
+      "target": 1509528,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1656728,
+      "id": 1776788,
+      "type": "COTOCL",
+      "target": 1509528,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811155,
+      "type": "COTOCO",
+      "target": 1656728,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745170,
+      "type": "COTOCL",
+      "target": 1518209,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1669575,
+      "id": 1776126,
+      "type": "COTOCL",
+      "target": 1518209,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811154,
+      "type": "COTOCO",
+      "target": 1669575,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745128,
+      "type": "COTOCL",
+      "target": 1764949,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1576664,
+      "id": 1774007,
+      "type": "COTOCL",
+      "target": 1764949,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811153,
+      "type": "COTOCO",
+      "target": 1576664,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745144,
+      "type": "COTOCL",
+      "target": 1776114,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1592836,
+      "id": 1773104,
+      "type": "COTOCL",
+      "target": 1776114,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811152,
+      "type": "COTOCO",
+      "target": 1592836,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745123,
+      "type": "COTOCL",
+      "target": 1759795,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1613471,
+      "id": 1772953,
+      "type": "COTOCL",
+      "target": 1759795,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811151,
+      "type": "COTOCO",
+      "target": 1613471,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745142,
+      "type": "COTOCL",
+      "target": 1775659,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1591219,
+      "id": 1772282,
+      "type": "COTOCL",
+      "target": 1775659,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811150,
+      "type": "COTOCO",
+      "target": 1591219,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745119,
+      "type": "COTOCL",
+      "target": 1755674,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1555186,
+      "id": 1764849,
+      "type": "COTOCL",
+      "target": 1755674,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811149,
+      "type": "COTOCO",
+      "target": 1555186,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745147,
+      "type": "COTOCL",
+      "target": 1780105,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1616201,
+      "id": 1762582,
+      "type": "COTOCL",
+      "target": 1780105,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811148,
+      "type": "COTOCO",
+      "target": 1616201,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745113,
+      "type": "COTOCL",
+      "target": 1754408,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1552836,
+      "id": 1761882,
+      "type": "COTOCL",
+      "target": 1754408,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811147,
+      "type": "COTOCO",
+      "target": 1552836,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745131,
+      "type": "COTOCL",
+      "target": 1767255,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1582896,
+      "id": 1755254,
+      "type": "COTOCL",
+      "target": 1767255,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811146,
+      "type": "COTOCO",
+      "target": 1582896,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745157,
+      "type": "COTOCL",
+      "target": 1493734,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1634531,
+      "id": 1753994,
+      "type": "COTOCL",
+      "target": 1493734,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811145,
+      "type": "COTOCO",
+      "target": 1634531,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745135,
+      "type": "COTOCL",
+      "target": 1772606,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1587974,
+      "id": 1753531,
+      "type": "COTOCL",
+      "target": 1772606,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811144,
+      "type": "COTOCO",
+      "target": 1587974,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1599640,
+      "type": "COTOCL",
+      "target": 1525026,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1686200,
+      "id": 1752977,
+      "type": "COTOCL",
+      "target": 1525026,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811143,
+      "type": "COTOCO",
+      "target": 1686200,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1625457,
+      "id": 1752456,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811142,
+      "type": "COTOCO",
+      "target": 1625457,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1550940,
+      "id": 1752242,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811141,
+      "type": "COTOCO",
+      "target": 1550940,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745125,
+      "type": "COTOCL",
+      "target": 1763152,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1572060,
+      "id": 1751832,
+      "type": "COTOCL",
+      "target": 1763152,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811140,
+      "type": "COTOCO",
+      "target": 1572060,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745122,
+      "type": "COTOCL",
+      "target": 1757988,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1560220,
+      "id": 1751444,
+      "type": "COTOCL",
+      "target": 1757988,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811139,
+      "type": "COTOCO",
+      "target": 1560220,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745151,
+      "type": "COTOCL",
+      "target": 1781436,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1618751,
+      "id": 1751287,
+      "type": "COTOCL",
+      "target": 1781436,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811138,
+      "type": "COTOCO",
+      "target": 1618751,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1593197,
+      "id": 1750284,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811137,
+      "type": "COTOCO",
+      "target": 1593197,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745168,
+      "type": "COTOCL",
+      "target": 1512602,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1663412,
+      "id": 1750241,
+      "type": "COTOCL",
+      "target": 1512602,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811136,
+      "type": "COTOCO",
+      "target": 1663412,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745117,
+      "type": "COTOCL",
+      "target": 1755592,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1645508,
+      "id": 1749257,
+      "type": "COTOCL",
+      "target": 1755592,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811135,
+      "type": "COTOCO",
+      "target": 1645508,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745145,
+      "type": "COTOCL",
+      "target": 1777009,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1594870,
+      "id": 1749232,
+      "type": "COTOCL",
+      "target": 1777009,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811134,
+      "type": "COTOCO",
+      "target": 1594870,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1708828,
+      "id": 1749209,
+      "type": "COTOCL",
+      "target": 1755592,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811133,
+      "type": "COTOCO",
+      "target": 1708828,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745140,
+      "type": "COTOCL",
+      "target": 1773614,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1589050,
+      "id": 1748705,
+      "type": "COTOCL",
+      "target": 1773614,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811132,
+      "type": "COTOCO",
+      "target": 1589050,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745127,
+      "type": "COTOCL",
+      "target": 1764717,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1576415,
+      "id": 1748669,
+      "type": "COTOCL",
+      "target": 1764717,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811131,
+      "type": "COTOCO",
+      "target": 1576415,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745146,
+      "type": "COTOCL",
+      "target": 1779344,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1614862,
+      "id": 1748044,
+      "type": "COTOCL",
+      "target": 1779344,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811130,
+      "type": "COTOCO",
+      "target": 1614862,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745152,
+      "type": "COTOCL",
+      "target": 1784417,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1622518,
+      "id": 1746958,
+      "type": "COTOCL",
+      "target": 1784417,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811129,
+      "type": "COTOCO",
+      "target": 1622518,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745111,
+      "type": "COTOCL",
+      "target": 1754355,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1622618,
+      "id": 1746180,
+      "type": "COTOCL",
+      "target": 1754355,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811128,
+      "type": "COTOCO",
+      "target": 1622618,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1632936,
+      "id": 1746141,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811127,
+      "type": "COTOCO",
+      "target": 1632936,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1562372,
+      "id": 1746073,
+      "type": "COTOCL",
+      "target": 1750528,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811126,
+      "type": "COTOCO",
+      "target": 1562372,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1574253,
+      "id": 1745726,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811125,
+      "type": "COTOCO",
+      "target": 1574253,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745159,
+      "type": "COTOCL",
+      "target": 1504147,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1645420,
+      "id": 1745725,
+      "type": "COTOCL",
+      "target": 1504147,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811124,
+      "type": "COTOCO",
+      "target": 1645420,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745137,
+      "type": "COTOCL",
+      "target": 1773470,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1588882,
+      "id": 1745645,
+      "type": "COTOCL",
+      "target": 1773470,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811123,
+      "type": "COTOCO",
+      "target": 1588882,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745132,
+      "type": "COTOCL",
+      "target": 1768256,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1584492,
+      "id": 1743932,
+      "type": "COTOCL",
+      "target": 1768256,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811122,
+      "type": "COTOCO",
+      "target": 1584492,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745115,
+      "type": "COTOCL",
+      "target": 1754566,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1621316,
+      "id": 1743865,
+      "type": "COTOCL",
+      "target": 1754566,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811121,
+      "type": "COTOCO",
+      "target": 1621316,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745143,
+      "type": "COTOCL",
+      "target": 1775908,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1591507,
+      "id": 1742824,
+      "type": "COTOCL",
+      "target": 1775908,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811120,
+      "type": "COTOCO",
+      "target": 1591507,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1580964,
+      "id": 1739188,
+      "type": "COTOCL",
+      "target": 1755592,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811119,
+      "type": "COTOCO",
+      "target": 1580964,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1581176,
+      "id": 1733409,
+      "type": "COTOCL",
+      "target": 1755592,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811118,
+      "type": "COTOCO",
+      "target": 1581176,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1578595,
+      "id": 1732105,
+      "type": "COTOCL",
+      "target": 1766317,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811117,
+      "type": "COTOCO",
+      "target": 1578595,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745154,
+      "type": "COTOCL",
+      "target": 1787256,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1628971,
+      "id": 1731293,
+      "type": "COTOCL",
+      "target": 1787256,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811116,
+      "type": "COTOCO",
+      "target": 1628971,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745149,
+      "type": "COTOCL",
+      "target": 1780213,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1616327,
+      "id": 1730371,
+      "type": "COTOCL",
+      "target": 1780213,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811115,
+      "type": "COTOCO",
+      "target": 1616327,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745138,
+      "type": "COTOCL",
+      "target": 1773529,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1588948,
+      "id": 1729973,
+      "type": "COTOCL",
+      "target": 1773529,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811114,
+      "type": "COTOCO",
+      "target": 1588948,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745161,
+      "type": "COTOCL",
+      "target": 1507605,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1652402,
+      "id": 1728161,
+      "type": "COTOCL",
+      "target": 1507605,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811113,
+      "type": "COTOCO",
+      "target": 1652402,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1552990,
+      "id": 1727536,
+      "type": "COTOCL",
+      "target": 1754566,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811112,
+      "type": "COTOCO",
+      "target": 1552990,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745160,
+      "type": "COTOCL",
+      "target": 1507510,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1652293,
+      "id": 1726077,
+      "type": "COTOCL",
+      "target": 1507510,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811111,
+      "type": "COTOCO",
+      "target": 1652293,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745105,
+      "type": "COTOCL",
+      "target": 1752071,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1548902,
+      "id": 1726019,
+      "type": "COTOCL",
+      "target": 1752071,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811110,
+      "type": "COTOCO",
+      "target": 1548902,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1599638,
+      "type": "COTOCL",
+      "target": 1523175,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1684130,
+      "id": 1724066,
+      "type": "COTOCL",
+      "target": 1523175,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811109,
+      "type": "COTOCO",
+      "target": 1684130,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745134,
+      "type": "COTOCL",
+      "target": 1771735,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1587612,
+      "id": 1724047,
+      "type": "COTOCL",
+      "target": 1771735,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811108,
+      "type": "COTOCO",
+      "target": 1587612,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745163,
+      "type": "COTOCL",
+      "target": 1509659,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1656884,
+      "id": 1723619,
+      "type": "COTOCL",
+      "target": 1509659,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811107,
+      "type": "COTOCO",
+      "target": 1656884,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745169,
+      "type": "COTOCL",
+      "target": 1514885,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1666515,
+      "id": 1723519,
+      "type": "COTOCL",
+      "target": 1514885,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811106,
+      "type": "COTOCO",
+      "target": 1666515,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1586588,
+      "id": 1723459,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811105,
+      "type": "COTOCO",
+      "target": 1586588,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1599636,
+      "type": "COTOCL",
+      "target": 1519662,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1673427,
+      "id": 1720574,
+      "type": "COTOCL",
+      "target": 1519662,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811104,
+      "type": "COTOCO",
+      "target": 1673427,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745150,
+      "type": "COTOCL",
+      "target": 1780443,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1616584,
+      "id": 1718348,
+      "type": "COTOCL",
+      "target": 1780443,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811103,
+      "type": "COTOCO",
+      "target": 1616584,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1599641,
+      "type": "COTOCL",
+      "target": 1534197,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1710841,
+      "id": 1717602,
+      "type": "COTOCL",
+      "target": 1534197,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811102,
+      "type": "COTOCO",
+      "target": 1710841,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745167,
+      "type": "COTOCL",
+      "target": 1512588,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1663394,
+      "id": 1717464,
+      "type": "COTOCL",
+      "target": 1512588,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811101,
+      "type": "COTOCO",
+      "target": 1663394,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745141,
+      "type": "COTOCL",
+      "target": 1773723,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1589171,
+      "id": 1703415,
+      "type": "COTOCL",
+      "target": 1773723,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811100,
+      "type": "COTOCO",
+      "target": 1589171,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1632855,
+      "id": 1703407,
+      "type": "COTOCL",
+      "target": 1755592,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811099,
+      "type": "COTOCO",
+      "target": 1632855,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745148,
+      "type": "COTOCL",
+      "target": 1780156,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1616260,
+      "id": 1698440,
+      "type": "COTOCL",
+      "target": 1780156,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811098,
+      "type": "COTOCO",
+      "target": 1616260,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745103,
+      "type": "COTOCL",
+      "target": 1750818,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1547154,
+      "id": 1697498,
+      "type": "COTOCL",
+      "target": 1750818,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811097,
+      "type": "COTOCO",
+      "target": 1547154,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745158,
+      "type": "COTOCL",
+      "target": 1500695,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1636667,
+      "id": 1692748,
+      "type": "COTOCL",
+      "target": 1500695,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811096,
+      "type": "COTOCO",
+      "target": 1636667,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1663537,
+      "id": 1691166,
+      "type": "COTOCL",
+      "target": 1754566,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811095,
+      "type": "COTOCO",
+      "target": 1663537,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1587759,
+      "id": 1690363,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811094,
+      "type": "COTOCO",
+      "target": 1587759,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745155,
+      "type": "COTOCL",
+      "target": 1787313,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1629041,
+      "id": 1689499,
+      "type": "COTOCL",
+      "target": 1787313,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811093,
+      "type": "COTOCO",
+      "target": 1629041,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745153,
+      "type": "COTOCL",
+      "target": 1785963,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1625900,
+      "id": 1688844,
+      "type": "COTOCL",
+      "target": 1785963,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811092,
+      "type": "COTOCO",
+      "target": 1625900,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745165,
+      "type": "COTOCL",
+      "target": 1510709,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1659158,
+      "id": 1688062,
+      "type": "COTOCL",
+      "target": 1510709,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811091,
+      "type": "COTOCO",
+      "target": 1659158,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745110,
+      "type": "COTOCL",
+      "target": 1753587,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1550928,
+      "id": 1686985,
+      "type": "COTOCL",
+      "target": 1753587,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811090,
+      "type": "COTOCO",
+      "target": 1550928,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1571943,
+      "id": 1686504,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811089,
+      "type": "COTOCO",
+      "target": 1571943,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745107,
+      "type": "COTOCL",
+      "target": 1753315,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1550680,
+      "id": 1683939,
+      "type": "COTOCL",
+      "target": 1753315,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811088,
+      "type": "COTOCO",
+      "target": 1550680,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745121,
+      "type": "COTOCL",
+      "target": 1757875,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1560105,
+      "id": 1682146,
+      "type": "COTOCL",
+      "target": 1757875,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811087,
+      "type": "COTOCO",
+      "target": 1560105,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745112,
+      "type": "COTOCL",
+      "target": 1754402,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1552832,
+      "id": 1676516,
+      "type": "COTOCL",
+      "target": 1754402,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811086,
+      "type": "COTOCO",
+      "target": 1552832,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1622592,
+      "id": 1675820,
+      "type": "COTOCL",
+      "target": 1755592,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811085,
+      "type": "COTOCO",
+      "target": 1622592,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745166,
+      "type": "COTOCL",
+      "target": 1511703,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1661345,
+      "id": 1675137,
+      "type": "COTOCL",
+      "target": 1511703,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811084,
+      "type": "COTOCO",
+      "target": 1661345,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745108,
+      "type": "COTOCL",
+      "target": 1753349,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1550710,
+      "id": 1852680,
+      "type": "COTOCL",
+      "target": 1753349,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811083,
+      "type": "COTOCO",
+      "target": 1550710,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1666664,
+      "id": 1852604,
+      "type": "COTOCL",
+      "target": 1773536,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811082,
+      "type": "COTOCO",
+      "target": 1666664,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1591195,
+      "id": 1851895,
+      "type": "COTOCL",
+      "target": 1753398,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811081,
+      "type": "COTOCO",
+      "target": 1591195,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745124,
+      "type": "COTOCL",
+      "target": 1761159,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1652729,
+      "id": 1847221,
+      "type": "COTOCL",
+      "target": 1761159,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811080,
+      "type": "COTOCO",
+      "target": 1652729,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745164,
+      "type": "COTOCL",
+      "target": 1510551,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1658955,
+      "id": 1847185,
+      "type": "COTOCL",
+      "target": 1510551,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811079,
+      "type": "COTOCO",
+      "target": 1658955,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745104,
+      "type": "COTOCL",
+      "target": 1750898,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1547229,
+      "id": 1846457,
+      "type": "COTOCL",
+      "target": 1750898,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811078,
+      "type": "COTOCO",
+      "target": 1547229,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1599635,
+      "type": "COTOCL",
+      "target": 1518387,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1671423,
+      "id": 1846398,
+      "type": "COTOCL",
+      "target": 1518387,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811077,
+      "type": "COTOCO",
+      "target": 1671423,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745156,
+      "type": "COTOCL",
+      "target": 1787446,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1629203,
+      "id": 1843781,
+      "type": "COTOCL",
+      "target": 1787446,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811076,
+      "type": "COTOCO",
+      "target": 1629203,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745130,
+      "type": "COTOCL",
+      "target": 1766871,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1580824,
+      "id": 1743541,
+      "type": "COTOCL",
+      "target": 1766871,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811075,
+      "type": "COTOCO",
+      "target": 1580824,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745133,
+      "type": "COTOCL",
+      "target": 1770243,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1591328,
+      "id": 1743394,
+      "type": "COTOCL",
+      "target": 1770243,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811074,
+      "type": "COTOCO",
+      "target": 1591328,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745120,
+      "type": "COTOCL",
+      "target": 1756643,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1557241,
+      "id": 1743379,
+      "type": "COTOCL",
+      "target": 1756643,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811073,
+      "type": "COTOCO",
+      "target": 1557241,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1568342,
+      "id": 1741195,
+      "type": "COTOCL",
+      "target": 1761159,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811072,
+      "type": "COTOCO",
+      "target": 1568342,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1599637,
+      "type": "COTOCL",
+      "target": 1520876,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1676471,
+      "id": 1741167,
+      "type": "COTOCL",
+      "target": 1520876,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811071,
+      "type": "COTOCO",
+      "target": 1676471,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 176896,
+      "id": 1745118,
+      "type": "COTOCL",
+      "target": 1755629,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 1555142,
+      "id": 1740467,
+      "type": "COTOCL",
+      "target": 1755629,
+      "properties": { "relationName": "企业标签" }
+    },
+    {
+      "source": 176896,
+      "id": 1811070,
+      "type": "COTOCO",
+      "target": 1555142,
+      "properties": { "relationName": "竞争对手" }
+    }
+  ]
+}

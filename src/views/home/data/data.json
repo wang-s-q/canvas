@@ -1,0 +1,395 @@
+{
+  "nodes": [
+    {
+      "id": 1487,
+      "properties": {
+        "name": "澳柯玛股份有限公司",
+        "code": "37021363011190726664"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 160774,
+      "properties": { "name": "公开发行", "code": "66661366885767225498" },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 160603,
+      "properties": { "name": "华泰证券", "code": "66661366821040996354" },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 159421,
+      "properties": { "name": "中信证券", "code": "66661366821040963676" },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 160624,
+      "properties": {
+        "name": "青岛城投集团",
+        "code": "66661366821040971798"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 160694,
+      "properties": { "name": "海发集团", "code": "66661366821040980015" },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 5085,
+      "properties": {
+        "name": "江苏白雪电器股份有限公司",
+        "code": "66661366480822878273"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 3678,
+      "properties": {
+        "name": "中科美菱低温科技股份有限公司",
+        "code": "66661366480822886410"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 3810,
+      "properties": {
+        "name": "宁波方太厨具有限公司",
+        "code": "66661366480822878438"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 172400,
+      "properties": {
+        "name": "美的集团股份有限公司",
+        "code": "44061364908546531329"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 176098,
+      "properties": {
+        "name": "海尔智家股份有限公司",
+        "code": "37021363011190710322"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 193421,
+      "properties": {
+        "name": "青岛海容商用冷链股份有限公司",
+        "code": "37021364908562612224"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 193482,
+      "properties": {
+        "name": "海信容声（广东）冷柜有限公司",
+        "code": "99991365906654953718"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 184559,
+      "properties": {
+        "name": "海信冰箱有限公司",
+        "code": "99991365906654789879"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 3556,
+      "properties": {
+        "name": "河南新飞电器有限公司",
+        "code": "66661366480822878413"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 5120,
+      "properties": {
+        "name": "郑州凯雪冷链股份有限公司",
+        "code": "66661366480822878348"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 4,
+      "id": 149599,
+      "properties": {
+        "name": "青岛城投金融控股集团有限公司",
+        "code": "99991366535412056221"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 149561,
+      "properties": {
+        "name": "青岛市企业发展投资有限公司",
+        "code": "99991366535412072609"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "num": 0,
+      "id": 191070,
+      "properties": {
+        "name": "青岛澳柯玛控股集团有限公司",
+        "code": "37021364499805102080"
+      },
+      "labels": ["Company"]
+    },
+    {
+      "id": 1649783,
+      "properties": { "name": "周华", "code": "37185276956642" },
+      "labels": ["Person"]
+    },
+    {
+      "id": 1648736,
+      "properties": { "name": "任淮秀", "code": "37177528993542" },
+      "labels": ["Person"]
+    },
+    {
+      "id": 1642015,
+      "properties": { "name": "王树先", "code": "37207277956442" },
+      "labels": ["Person"]
+    },
+    {
+      "id": 1641981,
+      "properties": { "name": "黄跃", "code": "37230210210142" },
+      "labels": ["Person"]
+    },
+    {
+      "id": 1628922,
+      "properties": { "name": "陈岳宏", "code": "37225167145942" },
+      "labels": ["Person"]
+    },
+    {
+      "id": 1626066,
+      "properties": { "name": "傅燕", "code": "37179450229142" },
+      "labels": ["Person"]
+    },
+    {
+      "id": 1618001,
+      "properties": { "name": "邓华", "code": "37220200108642" },
+      "labels": ["Person"]
+    }
+  ],
+  "links": [
+    {
+      "source": 160774,
+      "id": 80448,
+      "type": "COTOCO",
+      "target": 1487,
+      "properties": {
+        "time": "2000-12-29",
+        "relationName": "融资",
+        "round": "IPO上市",
+        "money": "8.19亿人民币"
+      }
+    },
+    {
+      "source": 160603,
+      "id": 79632,
+      "type": "COTOCO",
+      "target": 1487,
+      "properties": {
+        "time": "2020-12-31",
+        "relationName": "融资",
+        "round": "定向增发"
+      }
+    },
+    {
+      "source": 159421,
+      "id": 78875,
+      "type": "COTOCO",
+      "target": 1487,
+      "properties": {
+        "time": "2017-03-06",
+        "relationName": "融资",
+        "round": "股权融资"
+      }
+    },
+    {
+      "source": 160624,
+      "id": 78773,
+      "type": "COTOCO",
+      "target": 1487,
+      "properties": {
+        "time": "2016-06-30",
+        "relationName": "融资",
+        "round": "定向增发"
+      }
+    },
+    {
+      "source": 160694,
+      "id": 77848,
+      "type": "COTOCO",
+      "target": 1487,
+      "properties": {
+        "time": "2021-01-11",
+        "relationName": "融资",
+        "round": "股权融资"
+      }
+    },
+    {
+      "source": 1487,
+      "id": 124133,
+      "type": "COTOCO",
+      "target": 5085,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 124075,
+      "type": "COTOCO",
+      "target": 3678,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 124056,
+      "type": "COTOCO",
+      "target": 3810,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 123936,
+      "type": "COTOCO",
+      "target": 172400,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 123841,
+      "type": "COTOCO",
+      "target": 176098,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 123541,
+      "type": "COTOCO",
+      "target": 193421,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 123461,
+      "type": "COTOCO",
+      "target": 193482,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 123362,
+      "type": "COTOCO",
+      "target": 184559,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 122739,
+      "type": "COTOCO",
+      "target": 3556,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 122712,
+      "type": "COTOCO",
+      "target": 5120,
+      "properties": { "relationName": "竞争对手" }
+    },
+    {
+      "source": 1487,
+      "id": 80681,
+      "type": "COTOCO",
+      "target": 149599,
+      "properties": { "relationName": "股东" }
+    },
+    {
+      "source": 1487,
+      "id": 80657,
+      "type": "COTOCO",
+      "target": 149561,
+      "properties": { "relationName": "股东" }
+    },
+    {
+      "source": 1487,
+      "id": 77490,
+      "type": "COTOCO",
+      "target": 191070,
+      "properties": { "relationName": "股东" }
+    },
+    {
+      "source": 1487,
+      "id": 117068,
+      "type": "COTOPR",
+      "target": 1649783,
+      "properties": { "relationName": "股东" }
+    },
+    {
+      "source": 1487,
+      "id": 115847,
+      "type": "COTOPR",
+      "target": 1648736,
+      "properties": { "relationName": "股东" }
+    },
+    {
+      "source": 1487,
+      "id": 109894,
+      "type": "COTOPR",
+      "target": 1642015,
+      "properties": { "relationName": "股东" }
+    },
+    {
+      "source": 1487,
+      "id": 109860,
+      "type": "COTOPR",
+      "target": 1641981,
+      "properties": { "relationName": "股东" }
+    },
+    {
+      "source": 1487,
+      "id": 99777,
+      "type": "COTOPR",
+      "target": 1628922,
+      "properties": { "relationName": "股东" }
+    },
+    {
+      "source": 1487,
+      "id": 96879,
+      "type": "COTOPR",
+      "target": 1626066,
+      "properties": { "relationName": "股东" }
+    },
+    {
+      "source": 1487,
+      "id": 89168,
+      "type": "COTOPR",
+      "target": 1618001,
+      "properties": { "relationName": "股东" }
+    }
+  ]
+}
