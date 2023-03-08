@@ -41,10 +41,11 @@ class Node {
    * 半径
    */
   iconRadius () {
-    return 20
+    return this.options.size.default/2
   }
 
   static iconRadius () {
+    console.log(this.x);
     return 20
   }
 

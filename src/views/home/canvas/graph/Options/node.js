@@ -2,6 +2,9 @@
  * 节点配置属性
  */
 const nodeOption = {
+  size:{
+    default:40
+  },
   color: { // 节点颜色
     default: {
       border: '#409eff',
@@ -14,7 +17,7 @@ const nodeOption = {
   },
   font: { // 字体
     color: {
-      default: '#444',
+      default: '#fff',
       selection: '#ffc70d'
     },
     size: {

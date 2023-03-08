@@ -107,6 +107,7 @@ class Graph {
    * @param {Object} options 自定义配置
    */
   setOptions (options) {
+    // extend 浅拷贝继承
     this.options = Util.extend(Object.assign({}, GlobalOptions), options)
   }
 
