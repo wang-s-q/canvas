@@ -273,10 +273,7 @@ class Graph {
    * @param data 包含nodes和edges的数据
    * @param isCenter 是否居中
    */
-  setData (data = {
-    nodes: [],
-    edges: []
-  }, isCenter = true) {
+  setData (data = {nodes: [],edges: []}, isCenter = true) {
     this.operator.setDataSet(data.nodes, data.edges, isCenter)
   }
 

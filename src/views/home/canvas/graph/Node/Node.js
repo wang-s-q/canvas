@@ -44,10 +44,9 @@ class Node {
     return this.options.size.default/2
   }
 
-  static iconRadius () {
-    console.log(this.x);
-    return 20
-  }
+//   static iconRadius () {
+//     return 20
+//   }
 
   /**
    * 填充样式

@@ -9,15 +9,30 @@ import * as d3 from "d3";
 import { Status } from "./graph/Util/constant";
 import Node from "./graph/Node/Node";
 import Graph from "./graph/index";
-import chartData from "../data/data2.json";
+import chartData from "../data/data3.json";
 let inGraphRefCan = ref(null);
 let graph = null;
-
+let lengedData = [
+  { back: "FD7100", name: "目标企业", category: "target", size: 64 },
+  { back: "009AFC", name: "竞争企业", category: "Company", size: 52 },
+  { back: "0DD9AF", name: "企业标签", category: "CompanyLabel", size: 21 },
+  { back: "FDB600", name: "竞标项目", category: "BiddingProject", size: 21 },
+  { back: "FF554A", name: "软著分类", category: "Software", size: 21 },
+  { back: "A770EF", name: "专利IPC分类", category: "Patent", size: 21 },
+];
+const setSize = (category, nodeId, targetId) => {
+  let size = 0;
+  if (targetId === nodeId) {
+    size = lengedData.filter((v) => v.category === "target")[0].size;
+  } else {
+    size = lengedData.filter((v) => v.category === category)?.[0]?.size ?? 0;
+  }
+  return size;
+};
 // 初始化
 const initializeGraph = () => {
   const option = {};
   const bounding = inGraphRefCan.value.getBoundingClientRect();
-  console.log(bounding.width,bounding.height);
   // 画布
   graph = graph || new Graph(
     inGraphRefCan.value,
@@ -54,18 +69,13 @@ const loadData = () => {
     nodes: [],
     edges: [],
   };
-  obj.nodes = chartData.nodes.map((v) => {
-    return {
-      id: v.id,
-      label: v.properties.name,
-    };
-  });
-  obj.edges = chartData.links.map((v) => {
-    return {
-      source: v.source,
-      target: v.target,
-    };
-  });
+  obj.nodes = chartData.nodes;
+  obj.nodes.forEach(v=>{
+    v.label = v.properties.name
+    v.size = setSize(v.labels[0], v.properties.code, '37021363011190726664')
+  })
+  console.log(obj.nodes);
+  obj.edges = chartData.links;
 
   // 延时
   setTimeout(() => graph.setData(obj));

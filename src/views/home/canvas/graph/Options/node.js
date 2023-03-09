@@ -2,7 +2,7 @@
  * 节点配置属性
  */
 const nodeOption = {
-  size:{
+  size:{   // 节点大小
     default:40
   },
   color: { // 节点颜色
