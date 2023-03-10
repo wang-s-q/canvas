@@ -1,76 +1,91 @@
 // import '@/utils/ArrayFix'
 
 // eslint-disable-next-line
-const ASPDateRegex = /^\/?Date\((\-?\d+)/i
+const ASPDateRegex = /^\/?Date\((\-?\d+)/i;
 
 /**
  * 随机主键
  * @returns
  */
-export function uuid () {
-  const uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
-    const r = Math.random() * 16 | 0
-    const v = c === 'x' ? r : (r & 0x3 | 0x8)
-    return v.toString(16)
-  })
-  return uuid
+export function uuid() {
+  const uuid = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+    const r = (Math.random() * 16) | 0;
+    const v = c === "x" ? r : (r & 0x3) | 0x8;
+    return v.toString(16);
+  });
+  return uuid;
 }
 
 /**
  * 是否是String
  * @param {Object} object 对象
  */
-export function isString (object) {
-  return object != null && Object.prototype.toString.call(object) === '[object String]'
+export function isString(object) {
+  return (
+    object != null &&
+    Object.prototype.toString.call(object) === "[object String]"
+  );
 }
 
 /**
  * 是否是Number
  * @param {Object} object 对象
  */
-export function isNumber (object) {
-  return object != null && Object.prototype.toString.call(object) === '[object Number]'
+export function isNumber(object) {
+  return (
+    object != null &&
+    Object.prototype.toString.call(object) === "[object Number]"
+  );
 }
 
 /**
  * 是否是Boolean
  * @param {Object} object 对象
  */
-export function isBoolean (object) {
-  return object != null && Object.prototype.toString.call(object) === '[object Boolean]'
+export function isBoolean(object) {
+  return (
+    object != null &&
+    Object.prototype.toString.call(object) === "[object Boolean]"
+  );
 }
 
 /**
  * 是否是Object
  * @param {Object} object 对象
  */
-export function isObject (object) {
-  return object != null && Object.prototype.toString.call(object) === '[object Object]'
+export function isObject(object) {
+  return (
+    object != null &&
+    Object.prototype.toString.call(object) === "[object Object]"
+  );
 }
 
 /**
  * 是否是Function
  * @param {Object} object 对象
  */
-export function isFunction (object) {
-  return object != null && Object.prototype.toString.call(object) === '[object Function]'
+export function isFunction(object) {
+  return (
+    object != null &&
+    Object.prototype.toString.call(object) === "[object Function]"
+  );
 }
 
 /**
  * 对象是否为空
  * @param {Object} obj 对象
  */
-export function isObjectEmpty (obj) {
+export function isObjectEmpty(obj) {
   if (Object.getOwnPropertyNames) {
-    return (Object.getOwnPropertyNames(obj).length === 0)
+    return Object.getOwnPropertyNames(obj).length === 0;
   } else {
-    let k
+    let k;
     for (k in obj) {
       if (obj.hasOwnProperty(k)) {
-        return false
+        return false;
       }
     }
-    return true
+    return true;
   }
 }
 
@@ -78,8 +93,8 @@ export function isObjectEmpty (obj) {
  * 是否是undefined
  * @param {Object} obj 对象
  */
-export function isUndefined (obj) {
-  return obj === void 0
+export function isUndefined(obj) {
+  return obj === void 0;
 }
 
 /**
@@ -88,16 +103,16 @@ export function isUndefined (obj) {
  * @param {Object} b 对象B
  * @returns
  */
-export function extend (a, b) {
+export function extend(a, b) {
   for (var i = 1; i < arguments.length; i++) {
-    var other = arguments[i]
+    var other = arguments[i];
     for (var prop in other) {
       if (other.hasOwnProperty(prop)) {
-        a[prop] = other[prop]
+        a[prop] = other[prop];
       }
     }
   }
-  return a
+  return a;
 }
 
 /**
@@ -108,48 +123,56 @@ export function extend (a, b) {
  * @param {*} allowDeletion 可选参数，若为true，则不会删除为空的字段的值
  * @returns {Object} a 返回被b对象覆盖的a对象
  */
-export function deepExtend (a, b, protoExtend = false, allowDeletion = false) {
+export function deepExtend(a, b, protoExtend = false, allowDeletion = false) {
   for (var prop in b) {
     if (b.hasOwnProperty(prop) || protoExtend === true) {
       if (b[prop] && b[prop].constructor === Object) {
         if (a[prop] === undefined) {
-          a[prop] = {}
+          a[prop] = {};
         }
         if (a[prop].constructor === Object) {
-          deepExtend(a[prop], b[prop], protoExtend)
+          deepExtend(a[prop], b[prop], protoExtend);
         } else {
-          if ((b[prop] === null) && a[prop] !== undefined && allowDeletion === true) {
-            delete a[prop]
+          if (
+            b[prop] === null &&
+            a[prop] !== undefined &&
+            allowDeletion === true
+          ) {
+            delete a[prop];
           } else {
-            a[prop] = b[prop]
+            a[prop] = b[prop];
           }
         }
       } else if (Array.isArray(b[prop])) {
-        a[prop] = []
+        a[prop] = [];
         for (let i = 0; i < b[prop].length; i++) {
-          a[prop].push(b[prop][i])
+          a[prop].push(b[prop][i]);
         }
       } else {
-        if ((b[prop] === null) && a[prop] !== undefined && allowDeletion === true) {
-          delete a[prop]
+        if (
+          b[prop] === null &&
+          a[prop] !== undefined &&
+          allowDeletion === true
+        ) {
+          delete a[prop];
         } else {
-          a[prop] = b[prop]
+          a[prop] = b[prop];
         }
       }
     }
   }
-  return a
+  return a;
 }
 
 /**
  * 递归删除dom元素
  * @param {Object} DomObject dom对象
  */
-export function recursiveDOMDelete (DOMObject) {
+export function recursiveDOMDelete(DOMObject) {
   if (DOMObject) {
     while (DOMObject.hasChildNodes()) {
-      recursiveDOMDelete(DOMObject.firstChild)
-      DOMObject.removeChild(DOMObject.firstChild)
+      recursiveDOMDelete(DOMObject.firstChild);
+      DOMObject.removeChild(DOMObject.firstChild);
     }
   }
 }
@@ -158,14 +181,61 @@ export function recursiveDOMDelete (DOMObject) {
  * 获取鼠标相对于屏幕的坐标
  * @param {MouseEvent} event 鼠标事件
  */
-export function getMousePosition (event) {
-  const e = event || window.event
-  const scrollX = document.documentElement.scrollLeft || document.body.scrollLeft
-  const scrollY = document.documentElement.scrollTop || document.body.scrollTop
-  const x = e.pageX || e.clientX + scrollX
-  const y = e.pageY || e.clientY + scrollY
+export function getMousePosition(event) {
+  const e = event || window.event;
+  const scrollX =
+    document.documentElement.scrollLeft || document.body.scrollLeft;
+  const scrollY = document.documentElement.scrollTop || document.body.scrollTop;
+  const x = e.pageX || e.clientX + scrollX;
+  const y = e.pageY || e.clientY + scrollY;
   return {
     x,
-    y
+    y,
+  };
+}
+
+/**
+ * canvas计算与逐行绘制
+ * @param {*} text 需要绘制的文本
+ * @param {*} x 文本绘制的水平参考点坐标
+ * @param {*} y 文本绘制的垂直参考点坐标
+ * @param {*} maxWidth 最大需要换行的宽度，此参数可缺省，默认会使用canvas画布的width宽度作为maxWidth
+ * @param {*} lineHeight 行高，同样可缺省，默认会使用<canvas>元素在DOM中继承的line-height作为行高
+ * @returns 
+ */
+
+export function wrapText(text, x, y, maxWidth, lineHeight) {
+  if (typeof text != "string" || typeof x != "number" || typeof y != "number") {
+    return;
   }
+
+  let context = this;
+  let canvas = context.canvas;
+
+  if (typeof maxWidth == "undefined") {
+    maxWidth = (canvas && canvas.width) || 300;
+  }
+  if (typeof lineHeight == "undefined") {
+    lineHeight =
+      (canvas && parseInt(window.getComputedStyle(canvas).lineHeight)) ||
+      parseInt(window.getComputedStyle(document.body).lineHeight);
+  }
+
+  // 字符分隔为数组
+  var arrText = text.split("");
+  var line = "";
+
+  for (var n = 0; n < arrText.length; n++) {
+    var testLine = line + arrText[n];
+    var metrics = context.measureText(testLine);
+    var testWidth = metrics.width;
+    if (testWidth > maxWidth && n > 0) {
+      context.fillText(line, x, y);
+      line = arrText[n];
+      y += lineHeight;
+    } else {
+      line = testLine;
+    }
+  }
+  context.fillText(line, x, y);
 }

@@ -9,7 +9,7 @@ import * as d3 from "d3";
 import { Status } from "./graph/Util/constant";
 import Node from "./graph/Node/Node";
 import Graph from "./graph/index";
-import chartData from "../data/data3.json";
+import chartData from "../data/data2.json";
 let inGraphRefCan = ref(null);
 let graph = null;
 let lengedData = [
@@ -72,7 +72,9 @@ const loadData = () => {
   obj.nodes = chartData.nodes;
   obj.nodes.forEach(v=>{
     v.label = v.properties.name
-    v.size = setSize(v.labels[0], v.properties.code, '37021363011190726664')
+    // 太平洋康 37011363011190505584
+    // 澳柯玛 37021363011190726664
+    v.size = setSize(v.labels[0], v.properties.code, '37011363011190505584')
   })
   console.log(obj.nodes);
   obj.edges = chartData.links;

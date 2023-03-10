@@ -3,6 +3,10 @@ import Node from "./Node";
 import { hideLabelScale } from "../Util/constant";
 /**
  * 图标节点类型
+ * @param {Object} body body对象
+ * @param {Object} data 节点对象
+ * @param {Object} globalOptions 全局配置
+ * @param {Object} options 节点配置
  */
 class CircleNode extends Node {
   constructor(body, data, globalOptions, options) {
@@ -57,6 +61,8 @@ class CircleNode extends Node {
    * 绘制节点名称
    * @param {Object} ctx canvas 上下文
    * @param {Object} d 当前节点对象
+   * canvas 处理字体换行 参考
+   * https://www.zhangxinxu.com/wordpress/2018/02/canvas-text-break-line-letter-spacing-vertical/
    */
   drawLabel(ctx, d) {
     ctx.save();
@@ -65,8 +71,8 @@ class CircleNode extends Node {
     const opt = d.options;
     ctx.fillStyle = opt.font.color.default;
     ctx.font = `${opt.font.size.default}px ${opt.font.face}`;
-    let h = d.y + d.r/2 - 20;
-    ctx.fillText(d.label, d.x, h);
+    let h = d.y + d.r/2 - (d.size/4);
+    ctx.fillText('哈哈哈'||d.label, d.x, h);
     ctx.restore();
   }
 

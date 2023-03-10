@@ -26,6 +26,7 @@ class Node {
     this.dr_y = void 0 // 拖拽点击的点位y与圆点x的差
     this.boundingBox = data.boundingBox || { left: void 0, right: void 0, top: void 0, bottom: void 0 } // 节点的边界
     this.status = data.status || Status.default // 默认效果
+    this.size = data.size || 40
     this.setOptions(options)
   }
 
@@ -41,12 +42,12 @@ class Node {
    * 半径
    */
   iconRadius () {
-    return this.options.size.default/2
+    return this.size/2
   }
 
-//   static iconRadius () {
-//     return 20
-//   }
+  static iconRadius () {
+    return 20
+  }
 
   /**
    * 填充样式
