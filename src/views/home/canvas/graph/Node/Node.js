@@ -27,6 +27,7 @@ class Node {
     this.boundingBox = data.boundingBox || { left: void 0, right: void 0, top: void 0, bottom: void 0 } // 节点的边界
     this.status = data.status || Status.default // 默认效果
     this.size = data.size || 40
+    this.back = data.back
     this.setOptions(options)
   }
 

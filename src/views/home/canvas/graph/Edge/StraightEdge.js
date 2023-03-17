@@ -18,7 +18,7 @@ class StraightEdge extends Edge {
     this.operator.straightEdge(ctx, [e.source.x, e.source.y], [e.target.x, e.target.y], true)
     // 处理线条样式
     ctx.lineWidth = 1
-    ctx.strokeStyle = '#ddd'
+    ctx.strokeStyle = 'rgba(0, 154, 252, 0.5)'
     ctx.stroke()
     ctx.restore()
   }

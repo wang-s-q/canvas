@@ -9,16 +9,16 @@ import * as d3 from "d3";
 import { Status } from "./graph/Util/constant";
 import Node from "./graph/Node/Node";
 import Graph from "./graph/index";
-import chartData from "../data/data2.json";
+import chartData from "../data/data.json";
 let inGraphRefCan = ref(null);
 let graph = null;
 let lengedData = [
-  { back: "FD7100", name: "目标企业", category: "target", size: 64 },
-  { back: "009AFC", name: "竞争企业", category: "Company", size: 52 },
-  { back: "0DD9AF", name: "企业标签", category: "CompanyLabel", size: 21 },
-  { back: "FDB600", name: "竞标项目", category: "BiddingProject", size: 21 },
-  { back: "FF554A", name: "软著分类", category: "Software", size: 21 },
-  { back: "A770EF", name: "专利IPC分类", category: "Patent", size: 21 },
+  { back: ['#FE9800',"#FD7100"], name: "目标企业", category: "target", size: 64 },
+  { back: ["#00C2FF","#116FFF"], name: "竞争企业", category: "Company", size: 52 },
+  { back: ["#78FFD6","#0DD9AF"], name: "企业标签", category: "CompanyLabel", size: 21 },
+  { back: ["#FFFC00","#FDB600"], name: "竞标项目", category: "BiddingProject", size: 21 },
+  { back: ["#F7797D","#FF554A"], name: "软著分类", category: "Software", size: 21 },
+  { back: ["#A770EF","#903AFF"], name: "专利IPC分类", category: "Patent", size: 21 },
 ];
 const setSize = (category, nodeId, targetId) => {
   let size = 0;
@@ -72,9 +72,12 @@ const loadData = () => {
   obj.nodes = chartData.nodes;
   obj.nodes.forEach(v=>{
     v.label = v.properties.name
+    v.type = v.properties.code == '37011363011190505584'?'target':v.labels[0]
+    v.size = setSize(v.labels[0], v.properties.code, '37011363011190505584')
+    v.back = lengedData.filter(l=>l.category == v.type)[0].back
     // 太平洋康 37011363011190505584
     // 澳柯玛 37021363011190726664
-    v.size = setSize(v.labels[0], v.properties.code, '37011363011190505584')
+    
   })
   console.log(obj.nodes);
   obj.edges = chartData.links;

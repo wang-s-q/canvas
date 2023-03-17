@@ -11,19 +11,19 @@ import * as d3 from "d3";
 let inGraphRefSvg = ref(null)
 //增加拖拽功能
 const drag = (simulation) => {
-  function dragstarted(event, d) {
-    if (!event.active) simulation.alphaTarget(0.3).restart();
+  function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
     d.fx = d.x;
     d.fy = d.y;
   }
 
-  function dragged(event, d) {
-    d.fx = event.x;
-    d.fy = event.y;
+  function dragged( d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
   }
 
-  function dragended(event, d) {
-    if (!event.active) simulation.alphaTarget(0);
+  function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
     d.fx = null;
     d.fy = null;
   }

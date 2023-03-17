@@ -100,6 +100,8 @@ class Graph {
     this.body.edgeContainer = edgeCanvas
     // 设置容器大小
     this.setContainerSize(this.defaultWidth, this.defaultHeight)
+    // 自定义字体换行
+    CanvasRenderingContext2D.prototype.wrapText = Util.wrapText
   }
 
   /**
@@ -120,10 +122,12 @@ class Graph {
     const drilldown = alpha => {}
     _this.simulation = d3.forceSimulation()
       .alphaDecay(0.05) // 设置alpha衰减系数
-      .force('link', d3.forceLink().id(d => d.id)) // 连线的距离设置
+      .force('link', d3.forceLink().id(d => d.id).distance(500).strength(0.1)) // 连线的距离设置
       .force('collide', d3.forceCollide(60).strength(0.1))
       .force('charge', d3.forceManyBody().distanceMin(300).distanceMax(400).strength(-400)) // 节点之间作用力
       .force('drilldown', drilldown)
+      .force("x", d3.forceX())
+      .force("y", d3.forceY());
       // 生成空的力导图
     _this.simulation.nodes([])
       .on('tick', () => _this.body.emitter.emit('redraw'))
@@ -167,6 +171,7 @@ class Graph {
     })
     me.body.emitter.on('click.node', (event, node) => {
       me.body.emitter.emit('redrawNodes')
+      // 缩略图-不用管
       if (this.thumbnail !== null) {
         me.body.emitter.emit('redrawThumb')
       }
