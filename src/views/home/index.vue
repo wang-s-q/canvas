@@ -4,9 +4,11 @@
     <div class="tabs">
         <div @click="change(1)">svg</div>
         <div  @click="change(2)">canvas</div>
+        <div  @click="change(3)">g6</div>
     </div>
     <SvgGraph v-if="activeKey ==1"></SvgGraph>
     <CanvasGraph v-if="activeKey ==2"></CanvasGraph>
+    <G6Graph v-if="activeKey ==3"></G6Graph>
   </div>
 </template>
 
@@ -15,8 +17,9 @@ import { ref, onMounted } from 'vue';
 import { fabric } from 'fabric';
 import SvgGraph from './svg/index.vue'
 import CanvasGraph from "./canvas/index.vue"
+import G6Graph from "./g6/index.vue"
 let graphRef = ref(null)
-let activeKey = ref(2)
+let activeKey = ref(3)
 const change = (n) =>{
     activeKey.value = n
 }

@@ -202,10 +202,10 @@ export function getMousePosition(event) {
  * @param {*} maxWidth 最大需要换行的宽度，此参数可缺省，默认会使用canvas画布的width宽度作为maxWidth
  * @param {*} lineHeight 行高，同样可缺省，默认会使用<canvas>元素在DOM中继承的line-height作为行高
  * @param {*} lineNum 显示几行 可缺省，默认展示所有
- * @returns 
+ * @returns
  */
 
-export function wrapText(text, x, y, maxWidth, lineHeight,lineNum) {
+export function wrapText(text, x, y, maxWidth, lineHeight, lineNum) {
   if (typeof text != "string" || typeof x != "number" || typeof y != "number") {
     return;
   }
@@ -225,19 +225,19 @@ export function wrapText(text, x, y, maxWidth, lineHeight,lineNum) {
   // 字符分隔为数组
   var arrText = text.split("");
   var line = "";
-  var rows = 0
+  var rows = 0;
   for (var n = 0; n < arrText.length; n++) {
     var testLine = line + arrText[n];
     var metrics = context.measureText(testLine);
     // 文本宽度
     var testWidth = metrics.width;
     if (testWidth > maxWidth && n > 0) {
-      rows +=1
-      if(lineNum && rows == lineNum){
-        line += '...'
+      rows += 1;
+      if (lineNum && rows == lineNum) {
+        line += "...";
       }
       context.fillText(line, x, y);
-      if(lineNum && rows >= lineNum) return
+      if (lineNum && rows >= lineNum) return;
       line = arrText[n];
       y += lineHeight;
     } else {

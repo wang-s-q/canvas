@@ -171,6 +171,7 @@ class Operator {
     if (!isSolid) { ctx.setLineDash([3, 5]) }
     ctx.moveTo(start[0], start[1])
     ctx.lineTo(end[0], end[1])
+    // ctx.arcTo(start[0], start[1],end[0], end[1],50)
   }
 
   /**

@@ -9,7 +9,7 @@ import * as d3 from "d3";
 import { Status } from "./graph/Util/constant";
 import Node from "./graph/Node/Node";
 import Graph from "./graph/index";
-import chartData from "../data/data.json";
+import chartData from "../data/data2.json";
 let inGraphRefCan = ref(null);
 let graph = null;
 let lengedData = [
@@ -79,9 +79,9 @@ const loadData = () => {
     // 澳柯玛 37021363011190726664
     
   })
-  console.log(obj.nodes);
   obj.edges = chartData.links;
-
+//   processParallelEdges(obj.edges)
+//   console.log(obj.edges);
   // 延时
   setTimeout(() => graph.setData(obj));
 };

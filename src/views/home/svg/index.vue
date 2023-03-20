@@ -6,7 +6,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 // import data from "./data.json";
-import data3 from "../data/data3.json";
+import data3 from "../data/data2.json";
 import * as d3 from "d3";
 let inGraphRefSvg = ref(null)
 //增加拖拽功能
