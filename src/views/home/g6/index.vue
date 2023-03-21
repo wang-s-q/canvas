@@ -1,12 +1,18 @@
 <!--  -->
 <template>
+  <div
+    @click="setNode"
+    style="height: 30px; width: 100px; background: #fff; color: #000"
+  >
+    btn
+  </div>
   <div class="g6-container" ref="g6Ref"></div>
 </template>
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
 import G6 from "@antv/g6";
-import data from "../data/data.json";
+import data from "../data/data2.json";
 let props = defineProps({
   // 关系图数据
   chartData: {
@@ -115,70 +121,69 @@ const initGraph = () => {
   // 自定义属性参考 https://www.bookstack.cn/read/g2-4.x/a21b5fb2c6bedf8f.md
   G6.registerNode("rectNode", {
     draw: (cfg, group) => {
-      // 链主企业
+      // 目标企业
       if (cfg.nodeType == "target") {
+        // 小圈
         group.addShape("circle", {
           draggable: true,
+          name: "l-shape",
           attrs: {
             r: cfg.size * 0.9,
-            fill: "r(0.5,0.5,0.6) 0.5:rgba(255, 255, 255, 0.5) 0.9:rgba(254, 152, 0, 0.1) 1:rgba(253, 113, 0, 0.01)",
+            fill: "r(0.5,0.5,0.6) 0.5:rgba(255, 255, 255, 0.4) 0.8:rgba(254, 152, 0, 0.1) 1:rgba(253, 113, 0, 0.01)",
           },
         });
+        // 中圈
         group.addShape("circle", {
           draggable: true,
+          name: "m-shape",
           attrs: {
             r: cfg.size * 1.2,
             blur: 10,
-            fill: "r(0.5,0.5,0.6) 0.5:rgba(253, 113, 0, 0.1) 0.9:rgba(254, 152, 0, 0.1) 1:rgba(253, 113, 0, 0.01)",
+            fill: "r(0.5,0.5,0.6) 0.65:rgba(253, 113, 0, 0.1) 0.8:rgba(254, 152, 0, 0.1) 1:rgba(253, 113, 0, 0.01)",
           },
         });
+        // 大圈
         group.addShape("circle", {
           draggable: true,
+          name: "b-shape",
           attrs: {
             r: cfg.size * 1.5,
             blur: 10,
-            fill: "r(0.5,0.5,0.6) 0.5:rgba(253, 113, 0, 0.1) 0.9:rgba(254, 152, 0, 0.1) 1:rgba(253, 113, 0, 0.01)",
+            fill: "r(0.5,0.5,0.6) 0.65:rgba(253, 113, 0, 0.1) 0.9:rgba(254, 152, 0, 0.1) 1:rgba(253, 113, 0, 0.01)",
           },
         });
-        // group.addShape("rect", {
-        //   draggable: false,
-        //   attrs: {
-        //     width: 70,
-        //     height: 20,
-        //     radius: 4,
-        //     x: -35,
-        //     y: 35,
-        //     shadowColor: "#FD7100",
-        //     shadowBlur: 20,
-        //     fill: "rgba(0,0,0,1)",
-        //   },
-        // });
-        // group.addShape("text", {
-        //   draggable: false,
-        //   attrs: {
-        //     textBaseline: "center",
-        //     textAlign: "center",
-        //     y: 49,
-        //     x: 0,
-        //     // lineHeight: 10,
-        //     text: "链主企业",
-        //     fill: "#FD7100",
-        //   },
-        // });
       }
+      // 链主企业-标签
+      if (cfg.properties.attrname == "链主企业") {
+        group.addShape("image", {
+          draggable: false,
+          name: "tag-shape",
+          attrs: {
+            img: "/lz2.png",
+            width: 70,
+            height: 18,
+            x: -35,
+            y: 40,
+          },
+        });
+      }
+      // --------基本---------
       //最外面的那层
       const shape = group.addShape("circle", {
         draggable: true,
+        name: "out-shape",
         attrs: {
           fill: `l(90) 0:${cfg.back[1]} 1:${cfg.back[0]}`,
           r: cfg.size / 2,
-          shadowColor: cfg.back[1],
-          shadowBlur: 20,
+          shadowColor:
+            cfg.nodeType != "target" ? cfg.back[1] : "rgba(255,255,255,0.5)",
+          shadowBlur: cfg.nodeType != "target" ? 20 : 30,
         },
       });
       //里面的那层
       group.addShape("circle", {
         draggable: true,
+        name: "in-shape",
         attrs: {
           r: cfg.size / 2,
           fill: "r(0.5,0.5,0.6) 0.7:rgba(255,255,255,0) 1:rgba(255,255,255,0.1)",
@@ -187,6 +192,7 @@ const initGraph = () => {
       //文字
       group.addShape("text", {
         draggable: true,
+        name: "text-shape",
         attrs: {
           textBaseline: "center",
           textAlign: "center",
@@ -203,13 +209,24 @@ const initGraph = () => {
   });
   let bounding = g6Ref.value.getBoundingClientRect();
   // 关系图实例
-  graphObj.graph = new G6.Graph({
+  graphObj.graph = graphObj.graph || new G6.Graph({
     container: g6Ref.value,
     width: bounding.width,
     height: bounding.height,
     modes: {
-      default: ["drag-canvas", "drag-node", "zoom-canvas"],
+      default: [
+        "drag-node",
+        {
+          type: "zoom-canvas",
+          enableOptimize: true,
+        },
+        {
+          type: "drag-canvas",
+          enableOptimize: true,
+        },
+      ],
     },
+    // renderer:'svg',
     animate: true,
     defaultNode: {
       size: 64,
@@ -245,6 +262,7 @@ const initGraph = () => {
   graphObj.graph.on("node:click", (evt) => {
     const node = evt.item;
     const model = node.getModel();
+    if (model.nodeType == "target") return;
     console.log(model);
     // 一些操作
   });
@@ -265,6 +283,24 @@ onMounted(() => {
   initGraph();
 });
 onBeforeUnmount(() => {});
+const setNode = () => {
+  let arr = graphObj.graph.getNodes();
+  arr.forEach((v) => {
+    let model = v.getModel();
+    // graphObj.graph.setItemState(model.id, 'selected', true)
+    // v.getModel().opacity = 0.1;
+    // v.getModel().fillOpacity = 0.1;
+    // console.log(v.getModel());
+    graphObj.graph.updateItem(v, {
+      style: {
+        fill: "green",
+        stroke: "green",
+        opacity: 0.5,
+        fillOpacity: 0.5,
+      },
+    });
+  });
+};
 /**
  * 处理长文本 超出隐藏显示省略号
  * @param {string} str The origin string
