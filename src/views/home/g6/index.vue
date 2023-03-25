@@ -12,7 +12,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
 import G6 from "@antv/g6";
-import data from "../data/data2.json";
+import data from "../data/data.json";
 let props = defineProps({
   // 关系图数据
   chartData: {
@@ -29,6 +29,11 @@ let props = defineProps({
     type: Boolean,
     default: false,
   },
+  // 关系名跟随边向
+  autoRotate:{
+    type: Boolean,
+    default: false,
+  }
 });
 // import data from "../data/g6data.json";
 const setSize = (category, nodeId, targetId) => {
@@ -52,6 +57,18 @@ let lengedData = [
     back: ["#00C2FF", "#116FFF"],
     name: "竞争企业",
     category: "Company",
+    size: 52,
+  },
+  {
+    back: ["#78FFD6", "#0DD9AF"],
+    name: "自然人",
+    category: "Person",
+    size: 52,
+  },
+  {
+    back: ["#F7797D", "#FF554A"],
+    name: "关联交易企业",
+    category: "CompanyDeal",
     size: 52,
   },
   {
@@ -84,6 +101,7 @@ let graphObj = {
   graph: null,
 };
 const initGraph = () => {
+  console.log(data);
   let newData = {
     nodes: data.nodes,
     edges: data.links,
@@ -106,7 +124,7 @@ const initGraph = () => {
     v.target = v.target.toString();
     v.label = v.properties.relationName;
     v.labelCfg = {
-      autoRotate: false, // 是否跟随节点旋转，true能感觉到明显卡顿
+      autoRotate: props.autoRotate, // 是否跟随节点旋转，true能感觉到明显卡顿
       style: {
         fill: "#116FFF",
       },
@@ -159,9 +177,9 @@ const initGraph = () => {
           draggable: false,
           name: "tag-shape",
           attrs: {
-            img: "/lz2.png",
+            img: "/lz3.png",
             width: 70,
-            height: 18,
+            height: 20,
             x: -35,
             y: 40,
           },
@@ -203,61 +221,114 @@ const initGraph = () => {
           fill: "#fff",
         },
       });
-
+      // 气泡
+      if (cfg.number || cfg.num) {
+        group.addShape("circle", {
+          draggable: true,
+          name: "bubble",
+          attrs: {
+            r: 10,
+            x: 22,
+            y: -25,
+            fill:
+              cfg.nodeType == "CompanyDeal"
+                ? "rgba(255, 85, 74, 0.5)"
+                : "rgba(0, 154, 252, 0.5)",
+          },
+        });
+        group.addShape("text", {
+          draggable: true,
+          name: "text-bub",
+          attrs: {
+            textBaseline: "center",
+            textAlign: "center",
+            y: -21,
+            x: 22,
+            text: cfg.num || cfg.number,
+            fill: "#fff",
+          },
+        });
+      }
       return shape;
     },
+    // setState: function setState(name, value, item) {
+    //   // console.log(name,value,item);
+    //   if (name === "active") {
+    //     const opacity = value ? 0.2 : 1; // 在选中状态下将透明度更改为 1，否则更改为 0.5
+    //     const shape = item.get("group");
+    //     shape.attr("opacity", opacity);
+    //   }
+    // },
+  });
+  const tooltip = new G6.Tooltip({
+    offsetX: 10,
+    offsetY: 20,
+    getContent(e) {
+      const outDiv = document.createElement("div");
+      outDiv.style.width = "180px";
+      outDiv.innerHTML = `
+      <h4>自定义tooltip</h4>
+      <ul>
+        <li>Label: ${e.item.getModel().label || e.item.getModel().id}</li>
+      </ul>`;
+      return outDiv;
+    },
+    itemTypes: ["node"],
   });
   let bounding = g6Ref.value.getBoundingClientRect();
   // 关系图实例
-  graphObj.graph = graphObj.graph || new G6.Graph({
-    container: g6Ref.value,
-    width: bounding.width,
-    height: bounding.height,
-    modes: {
-      default: [
-        "drag-node",
-        {
-          type: "zoom-canvas",
-          enableOptimize: true,
-        },
-        {
-          type: "drag-canvas",
-          enableOptimize: true,
-        },
-      ],
-    },
-    // renderer:'svg',
-    animate: true,
-    defaultNode: {
-      size: 64,
-      style: {
-        lineWidth: 2,
-        stroke: "#5B8FF9",
-        fill: "#C6E5FF",
+  graphObj.graph =
+    graphObj.graph ||
+    new G6.Graph({
+      container: g6Ref.value,
+      width: bounding.width,
+      height: bounding.height,
+      modes: {
+        default: [
+          "drag-node",
+          {
+            type: "zoom-canvas",
+            enableOptimize: true,
+          },
+          {
+            type: "drag-canvas",
+            enableOptimize: true,
+          },
+        ],
       },
-    },
-    defaultEdge: {
-      size: 1,
-      color: "#e2e2e2",
-      style: {
-        // endArrow: {
-        //   path: "M 0,0 L 8,4 L 8,-4 Z",
-        //   fill: "#e2e2e2",
-        // },
+      // renderer:'svg',
+      animate: true,
+      defaultNode: {
+        size: 64,
+        style: {
+          lineWidth: 2,
+          stroke: "#5B8FF9",
+          fill: "#C6E5FF",
+        },
       },
-    },
-    layout: {
-      type: "force",
-      preventOverlap: true,
-      linkDistance: 150,
-      nodeStrength: -800,
-      //   preventOverlap:true, // 是否防止重叠
-      //   collideStrength:0.1, // 防止重叠的力强度，范围 [0, 1]
-      //   alpha: 0.3, // 当前的迭代收敛阈值
-      //   alphaDecay: 0.028, // 迭代阈值的衰减率。范围 [0, 1]。0.028 对应迭代数为 300
-      //   alphaMin: 0.001, // 停止迭代的阈值
-    },
-  });
+      defaultEdge: {
+        size: 1,
+        color: "#e2e2e2",
+        style: {
+          // endArrow: {
+          //   path: "M 0,0 L 8,4 L 8,-4 Z",
+          //   fill: "#e2e2e2",
+          // },
+        },
+      },
+      layout: {
+        type: "force",
+        preventOverlap: true,
+        linkDistance: 150,
+        nodeStrength: -800,
+        //   preventOverlap:true, // 是否防止重叠
+        //   collideStrength:0.1, // 防止重叠的力强度，范围 [0, 1]
+        //   alpha: 0.3, // 当前的迭代收敛阈值
+        //   alphaDecay: 0.028, // 迭代阈值的衰减率。范围 [0, 1]。0.028 对应迭代数为 300
+        //   alphaMin: 0.001, // 停止迭代的阈值
+      },
+      plugins: [tooltip]
+    });
   graphObj.graph.data(newData);
   graphObj.graph.on("node:click", (evt) => {
     const node = evt.item;
@@ -283,22 +354,17 @@ onMounted(() => {
   initGraph();
 });
 onBeforeUnmount(() => {});
+let qqq = ref(false)
 const setNode = () => {
+    qqq.value = !qqq.value
   let arr = graphObj.graph.getNodes();
   arr.forEach((v) => {
-    let model = v.getModel();
-    // graphObj.graph.setItemState(model.id, 'selected', true)
-    // v.getModel().opacity = 0.1;
-    // v.getModel().fillOpacity = 0.1;
-    // console.log(v.getModel());
-    graphObj.graph.updateItem(v, {
-      style: {
-        fill: "green",
-        stroke: "green",
-        opacity: 0.5,
-        fillOpacity: 0.5,
-      },
-    });
+    v.get("group").attr("opacity", qqq.value?0.3:1);
+    // graphObj.graph.setItemState(v, "active", true);
+  });
+  let arr2 = graphObj.graph.getEdges();
+  arr2.forEach((v) => {
+    v.get("group").attr("opacity", qqq.value?0.3:1);
   });
 };
 /**
