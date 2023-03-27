@@ -74,7 +74,7 @@ const loadData = () => {
     v.label = v.properties.name
     v.type = v.properties.code == '37011363011190505584'?'target':v.labels[0]
     v.size = setSize(v.labels[0], v.properties.code, '37011363011190505584')
-    v.back = lengedData.filter(l=>l.category == v.type)[0].back
+    v.back = lengedData.filter(l=>l.category == v.type)[0]?.back ?? []
     // 太平洋康 37011363011190505584
     // 澳柯玛 37021363011190726664
     

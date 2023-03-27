@@ -2,13 +2,15 @@
 <template>
   <div class='out-container' ref="graphRef">
     <div class="tabs">
-        <div @click="change(1)">svg</div>
-        <div  @click="change(2)">canvas</div>
+        <div @click="change(1)">d3-svg</div>
+        <div  @click="change(2)">d3-canvas</div>
         <div  @click="change(3)">g6</div>
+        <div  @click="change(4)">cytoscape</div>
     </div>
     <SvgGraph v-if="activeKey ==1"></SvgGraph>
     <CanvasGraph v-if="activeKey ==2"></CanvasGraph>
     <G6Graph v-if="activeKey ==3"></G6Graph>
+    <Cytoscape v-if="activeKey == 4"></Cytoscape>
   </div>
 </template>
 
@@ -18,8 +20,9 @@ import { fabric } from 'fabric';
 import SvgGraph from './svg/index.vue'
 import CanvasGraph from "./canvas/index.vue"
 import G6Graph from "./g6/index.vue"
+import Cytoscape from "./cytoscape/index.vue"
 let graphRef = ref(null)
-let activeKey = ref(3)
+let activeKey = ref(4)
 const change = (n) =>{
     activeKey.value = n
 }
@@ -39,7 +42,7 @@ onMounted(()=>{
     background: #000;
     .tabs{
         position:fixed;
-        width:200px;
+        width:400px;
         z-index:9999999;
         height:20px;
         background: #fff;
