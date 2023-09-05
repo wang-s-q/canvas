@@ -19,7 +19,7 @@ const initData = () => {
   const bounding = containerRef.value.getBoundingClientRect();
   const height = bounding.height;
   const width = bounding.width;
-  let combos = [] 
+  let combos = [];
   GraphData.nodes.forEach((v) => {
     v.id = v.id.toString();
     v.cluster = v.icID.substring(0, 4); // 设置节点聚类的依据
@@ -27,8 +27,6 @@ const initData = () => {
     if (combos.every((co) => co.id != v.comboId)) {
       combos.push({
         id: v.comboId,
-        size:500,
-        fixSize:[500,500]
       });
     }
     if (v.level == 1) {
@@ -50,20 +48,19 @@ const initData = () => {
     v.source = v.source.toString();
     v.target = v.target.toString();
   });
-  console.log(combos,'###');
   GraphData.combos = combos;
   // 连接一级节点
-//   for (let i = 0; i < levelArr.value.length; i++) {
-//     if (levelArr.value[i + 1]) {
-//       GraphData.edges.push({
-//         source: levelArr.value[i].id,
-//         target: levelArr.value[i + 1].id,
-//       });
-//     }
-//   }
-  initGraph(loadLayoutConfig(levelArr.value, height), height, width);
+  for (let i = 0; i < levelArr.value.length; i++) {
+    if (levelArr.value[i + 1]) {
+      GraphData.edges.push({
+        source: levelArr.value[i].id,
+        target: levelArr.value[i + 1].id,
+      });
+    }
+  }
+  initGraph("", height, width, combos);
 };
-const initGraph = (layout, height, width) => {
+const initGraph = (layout1, height, width, combos) => {
   graphObj =
     graphObj ||
     new G6.Graph({
@@ -73,7 +70,18 @@ const initGraph = (layout, height, width) => {
       modes: {
         default: ["zoom-canvas", "drag-canvas", "drag-node"],
       },
-      layout,
+      groupByTypes: false,
+      layout: {
+        type: "comboCombined",
+        center: [200, 200], // 可选，默认为图的中心
+        innerLayout: new G6.Layout["force2"]({
+          animate: false, // 设置为 false 可关闭布局动画
+          damping: 0.1,
+          interval: 0.1,
+          //   maxSpeed: 100,//一次迭代的最大移动长度
+          linkDistance: 50, //边长度
+        }),
+      },
       defaultNode: {
         size: 20,
       },
