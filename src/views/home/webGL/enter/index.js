@@ -12,7 +12,7 @@ export const initCity = () => {
     1,
     100000
   );
-  camera.position.set(100, 100, 10);
+  camera.position.set(100, 800, 1000);
   scene.add(camera);
 
   // 添加相机控件
@@ -20,12 +20,15 @@ export const initCity = () => {
   // 是否有惯性
   controls.enableDamping = true;
   // 是否可以缩放
-  controls.enableZoom = true;
+  controls.enableZoom = false;
   // 最近最远距离
   controls.minDistance = 100;
   controls.maxDistance = 2000;
+
+  // 开始右键拖动
+  controls.enablePan = true;
   // 添加灯光
-  scene.add(new THREE.AmbientLight(0xadadad));
+  scene.add(new THREE.AmbientLight(0xffffff));
   const directionLight = new THREE.DirectionalLight(0xffffff);
   directionLight.position.set(0, 0, 0);
   scene.add(directionLight);
@@ -43,10 +46,10 @@ export const initCity = () => {
   // 设置场景颜色
   renderer.setClearColor(new THREE.Color(0x000000), 0);
 
-  const city = new City(scene);
+  const city = new City(scene, camera, controls);
   const start = () => {
     city.start();
-    controls.update()
+    controls.update();
     // 渲染场景
     renderer.render(scene, camera);
     requestAnimationFrame(start);
