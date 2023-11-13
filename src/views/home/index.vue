@@ -8,6 +8,7 @@
       <div @click="change(4)">cytoscape</div>
       <div @click="change(5)">产业画像</div>
       <div @click="change(6)">webGL</div>
+      <div @click="change(7)">ER</div>
     </div>
     <SvgGraph v-if="activeKey == 1"></SvgGraph>
     <CanvasGraph v-if="activeKey == 2"></CanvasGraph>
@@ -15,6 +16,7 @@
     <Cytoscape v-if="activeKey == 4"></Cytoscape>
     <Dubang v-if="activeKey == 5"></Dubang>
     <WebGL v-if="activeKey == 6"></WebGL>
+    <ER v-if="activeKey == 7"></ER>
   </div>
 </template>
 
@@ -26,9 +28,10 @@ import CanvasGraph from "./canvas/index.vue";
 import G6Graph from "./g6/index.vue";
 import Cytoscape from "./cytoscape/index.vue";
 import Dubang from "./dubang/index.vue";
-import WebGL from "./webGL/index.vue"
+import WebGL from "./webGL/index.vue";
+import ER from "./ER/index.vue";
 let graphRef = ref(null);
-let activeKey = ref(6);
+let activeKey = ref(7);
 const change = (n) => {
   activeKey.value = n;
 };
@@ -44,7 +47,7 @@ onMounted(() => {});
   background: #000;
   .tabs {
     position: fixed;
-    width: 500px;
+    width: 600px;
     z-index: 9999999;
     height: 20px;
     background: #fff;
