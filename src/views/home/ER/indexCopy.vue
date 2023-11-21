@@ -184,23 +184,25 @@ let level1PointX = -400;
 let level1PointY = 100;
 // 绘制子节点-递归
 const drawChildNode = (arr: any, group?: any) => {
-  arr.forEach((v: any, i: number) => {
+//     console.log(arr);
+    
+//   arr.forEach((v: any, i: number) => {
 
-
-    // let inGroup = createGroup(
-    //   v.name,
-    //   level1PointXArr[i] + 10,
-    //   level1PointY + 20,
-    //   300,
-    //   100,
-    //   "#daf4fa",
-    //   "#a7c7ce"
-    // );
-    // group.addChild(inGroup);
-    if (v.childrenNode) {
-      drawChildNode(v.childrenNode);
-    }
-  });
+//     let inGroup = createGroup(
+//       v.name,
+//       level1PointXArr[i] + 10,
+//       level1PointY + 20,
+//       300,
+//       100,
+//       "#daf4fa",
+//       "#a7c7ce"
+//     );
+//     group.addChild(inGroup);
+//     if (v.childrenNode) {
+//       drawChildNode(v.childrenNode,inGroup);
+//     }
+    
+//   });
 };
 const initData = () => {
   GraphData.nodes.forEach((v, i) => {
